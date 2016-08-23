@@ -1,0 +1,72 @@
+/** Logo IMD **/
+.navbar-brand > img {
+    max-height: 100% !important; /* A imagem só crescera 100% de acordo com o nav menu */
+}
+
+/*** NavBar ***/
+.navbar-default {
+    margin-bottom: 0px !important;
+}
+
+/*** Banner ***/
+.img-banner img{
+    width: 100%;
+    height: 350px;
+}
+
+
+/** Localização da Pagina **/
+breadcrumb-wrapper {
+    position: absolute !important;
+    right: 0 !important;
+    top: 23px !important;
+}
+
+.breadcrumb {
+    background: none !important;
+    display: inline-block !important;
+    padding: 0 !important;
+}
+
+.breadcrumb li {
+    font-weight: 700 !important; /* o quanto a fonte é em negrito */
+    font-size: 12px !important;
+    text-transform: uppercase !important; /* coloca as letras em maisculas */
+}
+
+.breadcrumb li a {
+    color: #319DB5 !important;
+}
+
+.breadcrumb li.active {
+    color: #333333 !important;
+}
+
+.breadcrumb > li + li:before {
+    color: #cccccc !important;
+    content: "\2022" !important; /* criar uma bolinha depois do li */
+    padding: 0 8px 0 5px !important; 
+}
+
+/** Paragrafos **/
+p {
+    text-align: justify; /* Justificar o paragrafo */
+    text-indent: 30px; /* Espaçamento da primeira linha do paragrafo */
+}
+
+/** Images dos Usuarios **/
+
+.thumbnail img {
+    width: 350px !important;
+    height: 350px !important;
+}
+
+/** Imagens da Secretaria **/
+.media-object {
+    width:  150px !important;
+    height: 150px !important;
+}
+
+.media-body p.text-right{
+    text-align: right;
+}
