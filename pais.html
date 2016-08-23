@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Instituto Metrópole Digital</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Stylesheets Customizavel -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Stylesheets de Terceiros -->
+        <link href="css/bootstrap.css" rel="stylesheet">        
+    </head>
+    <body>
+         <!-- Menu -->
+        <div class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <!-- Menu responsivo -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- End Menu responsivo -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo_imd.png" alt="logomarca metropole digital"/> <!-- Logo do IMD -->
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="historico.html"><span class=""></span> Histórico</a></li>
+                        <li><a href="contato.html"><span class=""></span> Contato</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Área<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="alunos.html">Alunos</a></li>
+                                <li><a href="pais.html">Pais</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="professores.html">Professores</a></li>
+                                <li><a href="secretaria.html">Secretaria</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Menu -->
+        <!-- Contéudo -->    
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Área dos Pais</h1>
+                    <div class="breadcrumb-wrapper pull-right">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a>
+                            </li>
+                            <li class="active">Pais</li>
+                        </ol>
+                    </div>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label class="control-label">Aluno:</label>
+                        <select id="aluno" class="form-control">
+                            <option value="">Selecione o nome do aluno</option>
+                            <option value="sinara">Anne Maria</option>
+                        </select><br>
+                        <button type="submit" class="btn btn-sm btn-success" onclick="enviarAluno();">Enviar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="div-aluno">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                    <img src="images/Anne.jpg" alt="Aluna Anne Maria">
+                    <div class="caption">
+                        <h4 class="text-center">Anne Maria</h4>
+                        <ul>
+                            <li><strong>Matrícula:</strong> 20150820 </li>
+                            <li><strong>Curso:</strong> Informática para Internet </li>
+                            <li><strong>Turma:</strong> T1W </li>
+                            <li><strong>Entrada:</strong> 2015.1</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                 <div class="col-md-8">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading"><h3>Notas</h3></div>
+                        <div class="panel-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Disciplina</th>
+                                        <th>1ª Semestre</th>
+                                        <th>2ª Semestre</th>
+                                        <th>Média</th>
+                                    </tr>   
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Autoria Web</td>
+                                        <td>8.8</td>
+                                        <td>9.0</td>
+                                        <td>8,9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Programação Estruturada</td>
+                                        <td>6.0</td>
+                                        <td>8.0</td>
+                                        <td>7,0</td>
+                                    </tr>   
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Programação Orientada a Objeto</td>
+                                        <td>5.9</td>
+                                        <td>6.0</td>
+                                        <td>5,95</td>
+                                    </tr>      
+                                </tbody>
+                             </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contéudo -->
+        <!-- Rodapé -->
+        <div class="footer">
+            <div class="container">
+                <p class="text-muted">Copyright &copy; 2016 Sinara Karla e Gabriely Câmara.Todos os Direitos Reservados.</p>
+            </div>
+        </div>
+        <!-- End Rodapé -->
+
+
+    <!-- JavaScript Customizavel -->
+    <script type="text/javascript" src="js/style.js"></script>
+    
+    <!-- JavaScript de Terceiros -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
+</html>
